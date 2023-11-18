@@ -8,6 +8,14 @@ backend server has delpoyed on this link
 
 https://vidyaiaii.onrender.com/
 
+due to use of multer files storege destination is backend/files ( To use in high perform this app use below step)
+```bash
+npm install
+```
+```bash
+npm run start 
+```
+
 
 #To check api on postman use this link #
 
@@ -40,7 +48,7 @@ React , Bootstrap , Reactpdf , Axios
 ```
 backend
 ```bash
-Node.js , Express.js , Bcrypt , JWT , CORS , Nodemon , Mongoose , pdflib 
+Node.js , Express.js , Bcrypt , JWT , CORS , Nodemon , Mongoose , pdflib ,multer
 ```
 database
 
