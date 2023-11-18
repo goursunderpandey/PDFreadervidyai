@@ -25,7 +25,7 @@ https://vidyaiaii.onrender.com/extract-page
 
 this Endpoint used for show create the new PDF based on the selected pages
 
-https://vidyaiaii.onrender.com/extract-page/get-pdf
+https://vidyaiaii.onrender.com/get-pdf
 
 for authentication this end point are used 
 
