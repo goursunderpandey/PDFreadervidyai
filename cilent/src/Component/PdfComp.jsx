@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Document, Page } from "react-pdf";
+import { NavLink } from "react-router-dom";
 import axios from "axios";
 
 function PdfComp(props) {
@@ -62,9 +63,9 @@ function PdfComp(props) {
             borderRadius: "5px",
           }}
         >
-          <button className="btn btn-primary" onClick={extractPdf}>
-            {countCheckedCheckboxes()} Extract PDF
-          </button>
+          <NavLink className="btn btn-outline-success m-2" to="/Extracted" onClick={extractPdf}>
+          {countCheckedCheckboxes()} Extract PDF
+            </NavLink>
         </div>
       </div>
       <Document file={props.pdfFile} onLoadSuccess={onDocumentLoadSuccess}>
